@@ -1,6 +1,6 @@
 defmodule SATSolver do
   def main() do
-    "uf20-02.cnf"
+    "uf20-01.cnf"
     |>leer_cnf() #LLama al metodo para leer archivos cnf
     |> solve()
   end
